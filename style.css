@@ -24,11 +24,10 @@ body {
     color: #F9FAF8;
 }
 
-.links {
+.links, .info-body {
     list-style-type: none;
     display: flex;
     gap: 16px;
-    margin: 0;
     padding: 0;
 }
 
@@ -76,4 +75,48 @@ button {
 
 .joshpic {
     max-height: 240px;
+    width: auto;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    padding: 36px;
+    justify-content: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    margin: 24px;
+}
+
+.info-body {
+    flex-wrap: wrap;
+    padding: 12px;
+    justify-content: center;
+    gap: 48px;
+}
+
+.info {
+    display: flex;
+    flex: 0 0 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.info-pic {
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+}
+
+.info-desc {
+    text-align: center;
+    height: 120px;
 }
