@@ -6,7 +6,7 @@ body {
     flex-direction: column;
 }
 
-.top {
+.top, .footer {
     background: #1F2937;
 }
 
@@ -15,12 +15,12 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 16px;
-    padding: 0 16px;
+    padding: 0 36px;
 }
 
 .logo-text {
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 400;
     color: #F9FAF8;
 }
 
@@ -32,8 +32,48 @@ body {
     padding: 0;
 }
 
-a {
+a, .hero-sub {
     font-size: 18px;
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.subheader {
+    display: flex;
+    align-items: center;
+    padding: 72px 96px;
+    gap: 36px;
+}
+
+.hero-main {
+    display: flex;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    padding: 0;
+}
+
+.sub-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    flex-basis: 0;
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 16px;
+    width: 96px;
+}
+
+.joshpic {
+    max-height: 240px;
 }
