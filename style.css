@@ -59,7 +59,7 @@ a, .hero-sub {
     gap: 16px;
 }
 
-button {
+button{
     display: flex;
     justify-content: center;
     flex-basis: 0;
@@ -113,10 +113,76 @@ button {
     justify-content: center;
     align-items: center;
     border: none;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .info-desc {
     text-align: center;
     height: 120px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    padding: 60px 240px;
+    gap: 12px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 80;
+}
+
+.great-one {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: right;
+}
+
+.big-mike {
+    font-size: 4px;
+    text-align: right;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    background: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 40px 80px;
+    margin: 60px 120px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.cta-subject {
+    font-size: 18px;
+}
+
+.cta-body {
+    font-size: 12px;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    border: white;
+    border-style: solid;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 16px;
+    width: 96px;
 }
